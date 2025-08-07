@@ -46,3 +46,30 @@ footer {
     color: white;
     margin-top: 2rem;
 }
+
+
+.section-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.section-flex img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+    .section-flex {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .section-flex img {
+        width: 50%;
+    }
+    .section-flex .text {
+        width: 50%;
+        padding-left: 1rem;
+    }
+}
