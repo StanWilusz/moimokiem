@@ -1,17 +1,28 @@
-html, body {
-  background-color: #fff !important;
-  color: #111 !important;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  forced-color-adjust: none !important;
+/* WYŁĄCZANIE dark mode – zawsze jasna wersja */
+:root {
+  color-scheme: only light;
 }
 
-/* Sekcja hero z biało-czerwonym gradientem 🇵🇱 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, white 0%, #d32f2f 100%) !important;
+  color: black !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Nagłówki */
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+}
+
+/* Sekcja hero */
 .hero {
-  background: linear-gradient(180deg, #ffffff 0%, #ffffff 50%, #d32f2f 100%) !important;
-  color: #111 !important;
   padding: 4rem 2rem;
   text-align: center;
+  background: transparent; /* hero korzysta z tła body */
 }
 
 .hero h1 {
@@ -32,6 +43,7 @@ html, body {
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
+  color: #222;
 }
 
 /* Obrazki */
