@@ -11,13 +11,13 @@ html, body {
   color: #111;
 }
 
-/* Sekcja hero z tłem flaga.jpg */
+/* Sekcja hero z flagą */
 .hero {
   position: relative;
   padding: 4rem 2rem;
   text-align: center;
   color: #111;
-  background: url("img/flaga.jpg") no-repeat center center;
+  background: url("img/flaga.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
