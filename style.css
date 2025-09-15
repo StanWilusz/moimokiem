@@ -1,52 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #222;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #222;
 }
-header {
-    background-color: #003366;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
 }
-footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: relative;
+.hero {
+  background: linear-gradient(to bottom, #ffffff, #d32f2f);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
 }
 .section {
-    padding: 2rem;
-    margin: 1rem auto;
-    max-width: 960px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-.pomiary {
-    border-left: 6px solid #2E8B57;
-}
-.monitoring {
-    border-left: 6px solid #4682B4;
-}
-.cta-button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #2E8B57;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-}
-.cta-button:hover {
-    background-color: #246b45;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 960px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
 }
 .img-section {
-    max-width: 100%;
-    height: auto;
-    margin-top: 1rem;
-    border-radius: 8px;
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
